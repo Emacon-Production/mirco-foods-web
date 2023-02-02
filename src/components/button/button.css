@@ -1,0 +1,18 @@
+button {
+    display: inline-block;
+    border-radius: 80px;
+    background-color: #02662f;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px 20px;
+    width: fit-content;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+
+button:hover {
+    background-color: #05a84e;
+}

@@ -1,0 +1,67 @@
+.nav_wrapper {
+    width: 100%;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 1rem 2rem;
+}
+
+nav .logo img {
+    height: 4rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav .menu_link {
+    text-decoration: none;
+    color: black;
+    border-bottom: none;
+    transition: all .3s;
+}
+
+nav .menu_link:hover {
+    color: #02662f;
+    border-bottom: 1px solid #02662f;
+}
+
+nav #toggle,
+nav label {
+    display: none;
+    font-size: 2.5rem;
+    color: black !important;
+}
+
+@media (max-width: 40.625rem) {
+    nav .menu {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+
+    nav label {
+        display: inline-flex;
+        color: white;
+        cursor: pointer;
+    }
+
+    nav #toggle:checked ~ .menu {
+        height: 100%;
+    }
+}
