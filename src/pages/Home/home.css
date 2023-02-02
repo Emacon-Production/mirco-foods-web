@@ -1,0 +1,71 @@
+.hero {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+    padding:8rem 5rem 3rem 5rem;
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1675379359/Mirco%20Foods/Untitled_design_2_m0u7zq.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero_text_wrapper {
+    padding: 0rem  8rem 0rem 0rem;
+}
+
+.hero_text_wrapper h6 {
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.hero_text_wrapper h1 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.hero_img_wrapper {
+    display: flex;
+}
+
+.hero_img_set_one {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.hero_img_set_one .hero_img_1 {
+    height: 20rem;
+    width: 25rem;
+    object-fit: cover;
+    border-radius: 15% 0% 0% 0% !important;
+}
+
+.hero_img_set_one .hero_img_2 {
+    height: 15rem;
+    width: 25rem;
+    object-fit: cover;
+    margin-top: 1rem;
+    border-radius: 0% 0% 0% 15% !important;
+}
+
+.hero_img_set_two {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_img_set_two .hero_img_1 {
+    height: 15rem;
+    width: 25rem;
+    object-fit: cover;
+    margin-top: 2rem;
+    border-radius: 0% 15% 0% 0% !important;
+}
+
+.hero_img_set_two .hero_img_2 {
+    height: 20rem;
+    width: 25rem;
+    object-fit: cover;
+    margin-top: 1rem;
+    border-radius: 0% 0% 15% 0% !important;
+}

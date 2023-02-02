@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Home",
+        "targetLink": "/"
+    },
+    {
+        "name": "About Us",
+        "targetLink": "/about"
+    },
+    {
+        "name": "Our Products",
+        "targetLink": "/products"
+    },
+    {
+        "name": "Our Services",
+        "targetLink": "/services"
+    },
+    {
+        "name": "Team",
+        "targetLink": "/team"
+    },
+    {
+        "name": "Contact",
+        "targetLink": "/contact"
+    }
+]
