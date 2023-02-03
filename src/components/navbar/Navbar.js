@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import menuData from '../../assets/menuData.json'
 import Button from '../button/Button'
 
-const Navbar = () => {
+const Navbar = ({ background }) => {
     const [toggle, setToogle] = useState(false);
 
     const handleOpenToggle = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div className='nav_wrapper'>
-        <nav>
+        <nav className={background === 'transparent' ? 'transparent' : 'solid'}>
             <Link to="/" className='logo'>
                 <img src='https://res.cloudinary.com/emacon-production/image/upload/v1675372027/logo-1_q1yxfd.png' alt='Mirco Foods' />
             </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
                         menuData.map((item, index) => (
                             <React.Fragment key={index}>
                                 {
-                                    item.name === "Contact" ? <Button content={item.name} /> :
+                                    item.name === "Contact" ? <Button content={item.name} type="1" /> :
                                     <li ><Link to={item.targetLink} className="menu_link">{item.name}</Link></li>
                                 }
                                 

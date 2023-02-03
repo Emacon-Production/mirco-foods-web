@@ -1,4 +1,4 @@
-button {
+.type_one_btn {
     display: inline-block;
     border-radius: 80px;
     background-color: #02662f;
@@ -13,6 +13,70 @@ button {
     margin: 5px;
    }
 
-button:hover {
+.type_one_btn:hover {
     background-color: #05a84e;
 }
+
+.type_two_btn {
+    border: none;
+    background: none;
+    display: flex;
+  }
+  
+  .type_two_btn span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  .type_two_btn svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .type_two_btn:hover svg {
+    transform: translateX(0);
+  }
+  
+  .type_two_btn:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: #02662f;
+    padding-bottom: 20px;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #05a84e;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .type_two_btn:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .type_two_btn i{
+    font-size: 1.5rem;
+    margin-top: -0.1rem;
+    margin-right: 0.5rem;
+  }
+
+  .home_services {
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1675404802/Mirco%20Foods/Untitled_design_3_gna1o4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

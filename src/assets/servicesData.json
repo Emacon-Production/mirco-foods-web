@@ -1,0 +1,17 @@
+[
+    {
+        "serviceName": "Seed Cleaning",
+        "icon": "bx bxs-coffee-bean",
+        "description": "The separation of the seeds from any contaminants or undesired materials like metals, stones, weed seeds, chaff, broken seeds and other debris in order to enhance product purity."
+    },
+    {
+        "serviceName": "Seed Dehulling",
+        "icon": "bx bxs-leaf",
+        "description": "The removal of the protective covering or seed coat that encapulates oil seeds. This improves the quality and presentation of the seeds including its protein concentration."
+    },
+    {
+        "serviceName": "Seed Grading & Sorting",
+        "icon": "bx bxl-spring-boot",
+        "description": "This is achieved by size, density, shape, or colour"
+    }
+]
