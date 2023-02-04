@@ -21,6 +21,7 @@
     border: none;
     background: none;
     display: flex;
+    text-decoration: none;
   }
   
   .type_two_btn span {
@@ -29,6 +30,10 @@
     font-size: 14px;
     padding-right: 15px;
     text-transform: uppercase;
+  }
+
+  .type_two_btn i {
+    text-decoration: none;
   }
   
   .type_two_btn svg {

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Ruth Ndegwa",
+        "role": "CTO",
+        "profileImg": "https://res.cloudinary.com/emacon-production/image/upload/v1601626928/Emacon%20Production/IMG_0296_pnxemx.jpg",
+        "socials": {
+            "linkedIn": "",
+            "facebook": "",
+            "instagram": ""
+        }
+    },
+    {
+        "name": "Michelle Gathecha",
+        "role": "CTO",
+        "profileImg": "https://res.cloudinary.com/emacon-production/image/upload/v1601626928/Emacon%20Production/IMG_0296_pnxemx.jpg",
+        "socials": {
+            "linkedIn": "",
+            "facebook": "",
+            "instagram": ""
+        }
+    },
+    {
+        "name": "Cortney Gathecha",
+        "role": "CTO",
+        "profileImg": "https://res.cloudinary.com/emacon-production/image/upload/v1601626928/Emacon%20Production/IMG_0296_pnxemx.jpg",
+        "socials": {
+            "linkedIn": "",
+            "facebook": "",
+            "instagram": ""
+        }
+    }
+]

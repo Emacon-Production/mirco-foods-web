@@ -15,8 +15,6 @@ const Navbar = ({ background }) => {
         setToogle(false);
     }
 
-    console.log(toggle);
-
   return (
     <div className='nav_wrapper'>
         <nav className={background === 'transparent' ? 'transparent' : 'solid'}>
