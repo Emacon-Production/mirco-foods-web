@@ -1,0 +1,74 @@
+.about_hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 7rem 10rem 3rem 10rem;
+}
+
+.about_hero h4 {
+    font-weight: 400;
+    color: #02662f;
+}
+
+.about_hero h1 {
+    font-weight: 800;
+}
+
+.about_mission_vision {
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1675404802/Mirco%20Foods/Untitled_design_3_gna1o4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem 7rem;
+    color: white;
+}
+
+.our_mv {
+    width: 40rem;
+}
+
+.our_mv i {
+    font-size: 2rem;
+}
+
+.our_mv h2 {
+    font-weight: 800;
+}
+
+.our_mv span {
+    font-weight: 400;
+}
+
+.our_values {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 3rem 0rem;
+    border-bottom: 0.2px solid #b0ffd4;
+}
+
+.value {
+    display: flex;
+    width: 15rem;
+}
+
+.value h1 {
+    color: #02662f;
+}
+
+.value span {
+    padding-right: 0.5rem;
+    font-weight: 800;
+}
+
+.value p {
+    padding: 0.7rem 1rem;
+}

@@ -73,7 +73,7 @@ const Home = () => {
                         <div className='major_products_wrapper' key={index}>
                             <CardComponent majorProduct={majorProducts.productName} thumbnail={majorProducts.thumbnail} />
                             <div style={{ marginTop: "1rem" }}>
-                                <Button content="Learn More" type="2" />
+                                <Button content="Learn More" type="2" targetLink={`/product?product=${majorProducts.target}`} />
                             </div>
                         </div>
                     ))

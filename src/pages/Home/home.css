@@ -93,12 +93,14 @@
 
 .home_products_wrapper {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
 .major_products_wrapper {
-    margin: 0rem 2rem;
+    margin: 1rem 0rem;
 }
 
 .home_services {

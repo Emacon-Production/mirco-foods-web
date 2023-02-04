@@ -15,8 +15,10 @@ const Footer = () => {
         <div className='footer_copyright_socials_wrapper'>
             <div className='copyright'>
                 <p className="copyright_details">
-                    {`Copyright © ${new Date().getFullYear()} Mirco Foods | `}
-                    {`Proudly created by `}
+                    {`Copyright © ${new Date().getFullYear()} Mirco Foods`}
+                </p>
+                <p className="copyright_details">
+                    {`Developed by `}
                     <a color="inherit" href="https://victor-githui.netlify.app/" target="_blank" rel="noreferrer">
                         Emacon Production
                     </a>{' '}
