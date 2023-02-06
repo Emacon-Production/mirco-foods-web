@@ -71,7 +71,20 @@
 }
 
 .section_title {
+    display: flex;
+    align-items: center;
     font-size: 1.5rem;
+}
+
+.section_title i {
+    font-size: 5rem;
+    color: #02662f;
+    transition: all .3s;
+}
+
+.section_title i:hover {
+    font-size: 5.5rem;
+    color: #02662f;
 }
 
 .section_title .section_title_200 {

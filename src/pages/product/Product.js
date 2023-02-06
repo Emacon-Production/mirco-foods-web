@@ -5,6 +5,7 @@ import './product.css'
 import productsData from '../../assets/productsData.json'
 import queryString from 'query-string'
 import CardComponent from '../../components/card/Card'
+import { Link } from 'react-router-dom'
 
 const Product = () => {
     const { product } = queryString.parse(window.location.search);
@@ -19,6 +20,10 @@ const Product = () => {
 
         <div className='products_wrapper' >
             <div className='section_title'>
+                <Link to="/products">
+                    <i class='bx bx-chevrons-left'></i>
+                </Link>
+                
                 <h1>
                     <span className='section_title_800'>{product}</span>
                 </h1>
