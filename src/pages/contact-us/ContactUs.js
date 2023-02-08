@@ -6,6 +6,7 @@ import Button from '../../components/button/Button'
 import emailjs from '@emailjs/browser'
 import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+import Loader from '../../components/loader/Loader'
 
 const ContactUs = () => {
     const [name, setName] = useState();
@@ -57,6 +58,8 @@ const ContactUs = () => {
                         progress: undefined,
                         theme: "light",
                         });
+
+                    setLoading(false);
                 })
         } else (
             toast.error(`Please fill all the fields in the form`, {
@@ -86,32 +89,32 @@ const ContactUs = () => {
                 </h1>
 
                 <form>
-                    <div class="inputGroup">
+                    <div className="inputGroup">
                         <input type="text" required="" autocomplete="off" value={name} onChange={e => setName(e.target.value)} />
                         <label for="name">Name</label>
                     </div>
 
-                    <div class="inputGroup">
+                    <div className="inputGroup">
                         <input type="text" required="" autocomplete="off" value={phone} onChange={e => setPhone(e.target.value)} />
                         <label for="name">Phone Number</label>
                     </div>
 
-                    <div class="inputGroup">
+                    <div className="inputGroup">
                         <input type="text" required="" autocomplete="off" value={email} onChange={e => setEmail(e.target.value)} />
                         <label for="name">Email Address</label>
                     </div>
 
-                    <div class="inputGroup">
+                    <div className="inputGroup">
                         <input type="text" required="" autocomplete="off" value={subject} onChange={e => setSubject(e.target.value)} />
                         <label for="name">Subject</label>
                     </div>
 
-                    <div class="inputGroup">
+                    <div className="inputGroup">
                         <textarea rows="6" type="text" required="" autocomplete="off" value={message} onChange={e => setMessage(e.target.value)} />
                         <label for="name">Message</label>
                     </div>
 
-                    <Button content="Send Message" type="1" handleClick={handleSubmit} />
+                    <Button content={loading ? <Loader /> : "Send Message"} type="1" handleClick={handleSubmit} />
 
                 </form>
             </div>
