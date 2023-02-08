@@ -29,7 +29,7 @@ const Home = () => {
             <div className='hero_text_wrapper'>
                 <h6>Grow Naturally, Live Naturally</h6>
                 <h1>We Build Secure & Sustainable Food Systems in Africa</h1>
-                <Button content="Find out more" type="1" />
+                <Button content="Find out more" type="1" targetLink="/about" />
             </div>
             <div className='hero_img_wrapper'>
                 <div className='hero_img_set_one'>
@@ -126,7 +126,7 @@ const Home = () => {
                     <span>Worldwide</span> <br/>
                     Membership & Certifications
                 </h1>
-                <Button type="3"  content="Contact us Today" icon="bx bx-envelope" />
+                <Button type="3"  content="Contact us Today" icon="bx bx-envelope" targetLink="/contact" />
             </div>
 
             <div className='membership_logos'>

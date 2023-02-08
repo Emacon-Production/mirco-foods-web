@@ -71,7 +71,20 @@
 }
 
 .section_title {
+    display: flex;
+    align-items: center;
     font-size: 1.5rem;
+}
+
+.section_title i {
+    font-size: 5rem;
+    color: #02662f;
+    transition: all .3s;
+}
+
+.section_title i:hover {
+    font-size: 5.5rem;
+    color: #02662f;
 }
 
 .section_title .section_title_200 {
@@ -179,4 +192,138 @@
 .membership_logos img{
     width: 9rem;
     padding: 2rem 2rem 0rem 0rem;
+}
+
+@media (max-width: 40.625rem) {
+    .hero {
+        flex-wrap: wrap;
+        padding:5rem 1rem 3rem 2rem;
+    }
+
+    .hero_img_wrapper {
+        margin-top: 3rem;
+    }
+
+    .hero_img_set_one .hero_img_1 {
+        height: 15rem;
+        width: 11rem;
+    }
+
+    .hero_img_set_one .hero_img_2 {
+        height: 8rem;
+        width: 11rem;
+    }
+
+    .hero_img_set_two .hero_img_1 {
+        height: 8rem;
+        width: 11rem;
+    }
+    
+    .hero_img_set_two .hero_img_2 {
+        height: 15rem;
+        width: 11rem;
+    }
+
+    .home_services_content {
+        flex-wrap: wrap;
+    }
+
+    .capacity_building_img img {
+        height: 15rem;
+    }
+    .membership_logos {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .membership_logos img{
+        width: 5rem;
+    }
+
+    .hero_text_wrapper h1 {
+        font-size: 2.5rem;
+    }
+
+    .section_title {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .hero {
+        /* flex-wrap: wrap; */
+        padding:5rem 1.5rem 3rem 1.5rem;
+    }
+    .hero_text_wrapper {
+        padding: 0rem 1rem 0rem 0rem;
+    }
+
+    .hero_img_wrapper {
+        margin-top: 3rem;
+    }
+
+    .hero_img_set_one .hero_img_1 {
+        height: 15rem;
+        width: 11rem;
+    }
+
+    .hero_img_set_one .hero_img_2 {
+        height: 8rem;
+        width: 11rem;
+    }
+
+    .hero_img_set_two .hero_img_1 {
+        height: 8rem;
+        width: 11rem;
+    }
+    
+    .hero_img_set_two .hero_img_2 {
+        height: 15rem;
+        width: 11rem;
+    }
+
+    .home_products {
+        padding: 3rem 2rem;
+    }
+
+    .home_services {
+        padding: 3rem 2rem;
+    }
+
+    .home_capacity_building {
+        flex-wrap: wrap;
+        padding: 3rem 2rem;
+    }
+
+    .home_membership {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: start;
+        padding: 3rem 2rem;
+        background: url(https://res.cloudinary.com/emacon-production/image/upload/v1675379359/Mirco%20Foods/Untitled_design_2_m0u7zq.jpg);
+        background-repeat: none;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .hero_img_set_one .hero_img_1 {
+        height: 15rem;
+        width: 9.3rem;
+    }
+
+    .hero_img_set_one .hero_img_2 {
+        height: 8rem;
+        width: 9.3rem;
+    }
+
+    .hero_img_set_two .hero_img_1 {
+        height: 8rem;
+        width: 9.3rem;
+    }
+    
+    .hero_img_set_two .hero_img_2 {
+        height: 15rem;
+        width: 9.3rem;
+    }
 }

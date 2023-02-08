@@ -36,7 +36,7 @@ const Navbar = ({ background }) => {
                         menuData.map((item, index) => (
                             <React.Fragment key={index}>
                                 {
-                                    item.name === "Contact" ? <Button content={item.name} type="1" /> :
+                                    item.name === "Contact" ? <Button content={item.name} type="1" targetLink={item.targetLink} /> :
                                     <li ><Link to={item.targetLink} className="menu_link">{item.name}</Link></li>
                                 }
                                 

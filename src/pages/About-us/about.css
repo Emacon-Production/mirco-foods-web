@@ -72,3 +72,20 @@
 .value p {
     padding: 0.7rem 1rem;
 }
+
+@media screen and (max-width: 1080px) {
+    .about_hero {
+        padding: 7rem 2rem 3rem 2rem;
+    }
+
+    .about_mission_vision {
+        gap: 1rem;
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 40.625rem) {
+    .value {
+        width: 75%;
+    }
+}
