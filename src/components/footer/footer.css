@@ -147,5 +147,23 @@
     background: #E4405F;
     color: #fff;
   }
+
+  @media screen and (max-width: 1080px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 40.625rem) {
+    .footer_logo_menu_wrapper{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .footer_menu {
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+    }
+  }
   
   

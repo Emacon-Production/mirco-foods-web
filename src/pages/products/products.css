@@ -1,3 +1,9 @@
 .products_wrapper {
     padding: 7rem 7rem 0rem 7rem;
 }
+
+@media screen and (max-width: 1080px) {
+    .products_wrapper {
+        padding: 7rem 2rem 0rem 2rem;
+    }
+}

@@ -131,3 +131,9 @@
     opacity: 1;
     transform: translate(-50%, -130%);
   }
+
+  @media screen and (max-width: 1080px) {
+    .team_title {
+      padding: 8rem 2rem 2rem 2rem;
+    }
+}

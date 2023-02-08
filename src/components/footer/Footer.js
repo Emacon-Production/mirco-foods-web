@@ -25,7 +25,7 @@ const Footer = () => {
                 </p>
             </div>
 
-            <ul class="socials_wrapper">
+            {/* <ul class="socials_wrapper">
                 <li class="icon facebook">
                     <span class="tooltip">Facebook</span>
                     <span><i class='bx bxl-facebook' ></i></span>
@@ -38,7 +38,7 @@ const Footer = () => {
                     <span class="tooltip">Instagram</span>
                     <span><i class='bx bxl-instagram-alt' ></i></span>
                 </li>
-            </ul>
+            </ul> */}
         </div>
     </div>
   )

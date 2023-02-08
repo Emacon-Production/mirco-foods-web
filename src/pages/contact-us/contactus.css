@@ -88,3 +88,13 @@
   .details_data span {
     font-weight: 800;
   }
+
+  @media (max-width: 40.625rem) {
+    .inputGroup {
+      width: 90%;
+    }
+
+    .details_data {
+      padding: 0rem 1rem;
+    }
+  }
