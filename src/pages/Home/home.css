@@ -3,7 +3,7 @@
     /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-between;
-    padding:8rem 5rem 3rem 5rem;
+    padding:10rem 5rem 3rem 5rem;
     background: url(https://res.cloudinary.com/emacon-production/image/upload/v1675379359/Mirco%20Foods/Untitled_design_2_m0u7zq.jpg);
     background-repeat: none;
     background-position: center;
@@ -144,6 +144,10 @@
 
 .capacity_building_img img {
     height: 30rem;
+}
+
+.capacity_building_text {
+    padding: 0rem 3rem;
 }
 
 .capacity_building_text h6 {

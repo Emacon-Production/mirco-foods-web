@@ -30,6 +30,23 @@ const Services = () => {
             </div>
         </div>
 
+        <div className='home_capacity_building'>
+            <div className='capacity_building_img'>
+                <img src='https://res.cloudinary.com/emacon-production/image/upload/v1676788740/Mirco%20Foods/annie-spratt-QYcSeY7vuZM-unsplash_vcu53k.jpg' />
+            </div>
+            <div className='capacity_building_text'>
+                {/* <h6>Global Health & Farmer's Livelihood</h6> */}
+                <h1>
+                    <span>Capacity</span> Building
+                </h1>
+                <p>
+                    Provision of advisory services including mentorship and coaching. <br/> <br/>
+                    Support in acccess to finance and market linkages. <br /> <br />
+                    Support in identification and adoption of practical tools, technology and systems to minimize potential risks to product quality.
+                </p>
+            </div>
+        </div>
+
         <Footer />
     </div>
   )

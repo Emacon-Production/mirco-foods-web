@@ -1,48 +1,13 @@
 import React from 'react'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/navbar/Navbar'
-import './about.css'
 
-const About = () => {
+const OurValues = () => {
   return (
-    <div className='about'>
+    <div>
         <Navbar background="solid" />
 
-        <div className='about_hero'>
-            <h4>About us</h4>
-            <h1>Grown Naturally, Live Naturally</h1>
-            <p>
-                Mirco Foods Limited is an innovative Kenyan business dedicated to making positive social impact
-                in the agricultural sector in Africa. Founded in 2022, Mirco is one of the leading buyers, processors,
-                traders and exporters of oil seeds, pulses and nuts in the region. We support our farmers' network to acccess
-                markets and finances in addition to technological and knowledge transfer. We pride ourselves as a trustworthy 
-                partner with high level of reliability in delivering our promise.
-            </p>
-        </div>
-
-        <div className='about_mission_vision'>
-            <div className='our_mv'>
-                <i class='bx bxs-bullseye'></i>
-                <h2>
-                    <span>Our</span> Mission
-                </h2>
-                <p>
-                    To positively impact global health and farmers' livelihoods through provision of safe and nutritious food for all.
-                </p>
-            </div>
-
-            <div className='our_mv'>
-                <i class='bx bxs-bullseye'></i>
-                <h2>
-                    <span>Our</span> Vision
-                </h2>
-                <p>
-                    To build secure and sustainable food systems in Africa.
-                </p>
-            </div>
-        </div>
-
-        {/* <div className='our_values_wrapper'>
+        <div className='our_values_wrapper'>
             <h1>Our Values</h1>
         </div>
         <div className='our_values'>
@@ -89,11 +54,11 @@ const About = () => {
                     achieving their goals. We own  
                 </p>
             </div>
-        </div> */}
+        </div>
 
         <Footer />
     </div>
   )
 }
 
-export default About
+export default OurValues
