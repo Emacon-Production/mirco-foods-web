@@ -84,8 +84,8 @@ const ContactUs = () => {
         <div className="contact_wrapper">
             <div className='form_wrapper' >
                 <h1>
-                    We'd love to hear from you, <br />
-                    Get in touch 
+                    We would love to hear from you. <br />
+                    Please get in touch. 
                 </h1>
 
                 <form>
@@ -127,16 +127,13 @@ const ContactUs = () => {
 
                 <div className='details_data'>
                     <p>
-                        <span>Contact:</span> +254 724 870870/ +254 739 870870
+                        <span>Contact:</span> +254 724 870870 , +254 739 870870
                     </p>
                     <p>
-                        <span>Email:</span> info@mircofoods.co.ke
+                        <span>Email:</span> <a href = "mailto: info@mircofoods.co.ke">info@mircofoods.co.ke</a>
                     </p>
                     <p>
-                        <span>Address:</span> P.O.BOX 21992-00100
-                    </p>
-                    <p>
-                        <span>Nairobi, Kenya</span> 
+                        <span>Address:</span> P.O.BOX 21992-00100 Nairobi, Kenya
                     </p>
                 </div>
             </div>

@@ -4,16 +4,36 @@
         "targetLink": "/"
     },
     {
-        "name": "About Us",
-        "targetLink": "/about"
+        "name": "About",
+        "targetLink": "/about",
+        "submenu": [
+            {
+                "menu": "Mission & Vision",
+                "target": "/about"
+            },
+            {
+                "menu": "Our Values",
+                "target": "/our-values"
+            }
+        ]
     },
     {
-        "name": "Our Products",
-        "targetLink": "/products"
+        "name": "What we do",
+        "targetLink": "/about",
+        "submenu": [
+            {
+                "menu": "Our Products",
+                "target": "/products"
+            },
+            {
+                "menu": "Our Services",
+                "target": "/services"
+            }
+        ]
     },
     {
-        "name": "Our Services",
-        "targetLink": "/services"
+        "name": "Impact",
+        "targetLink": "/impact"
     },
     {
         "name": "Team",

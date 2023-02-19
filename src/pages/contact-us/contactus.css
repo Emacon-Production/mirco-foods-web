@@ -3,7 +3,7 @@
     justify-content: center;
     gap: 5rem;
     flex-wrap: wrap;
-    padding: 8rem 1rem 1rem 1rem;
+    padding: 10rem 1rem 1rem 1rem;
 }
 
 .form_wrapper h1 {
@@ -87,6 +87,16 @@
 
   .details_data span {
     font-weight: 800;
+  }
+
+  .details_data a{
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+  }
+
+  .details_data a:hover{
+    color: #02662f;
   }
 
   @media (max-width: 40.625rem) {

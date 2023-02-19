@@ -46,12 +46,19 @@
     font-weight: 400;
 }
 
+.our_values_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9rem 0rem 0rem 0rem;
+}
+
 .our_values {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 3rem 0rem;
+    padding: 1rem 0rem;
     border-bottom: 0.2px solid #b0ffd4;
 }
 

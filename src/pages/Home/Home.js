@@ -27,8 +27,12 @@ const Home = () => {
         
         <div className='hero'>
             <div className='hero_text_wrapper'>
-                <h6>Grow Naturally, Live Naturally</h6>
-                <h1>We Build Secure & Sustainable Food Systems in Africa</h1>
+                {/* <h6>Grow Naturally, Live Naturally</h6>
+                <h1>We Build Secure & Sustainable Food Systems in Africa</h1> */}
+
+                <h6>We Build Secure & Sustainable Food Systems in Africa</h6>
+                <h1>Grown Naturally, Live Naturally</h1>
+
                 <Button content="Find out more" type="1" targetLink="/about" />
             </div>
             <div className='hero_img_wrapper'>
@@ -39,7 +43,7 @@ const Home = () => {
                         className='hero_img_1'
                     />
                     <img 
-                        src='https://res.cloudinary.com/emacon-production/image/upload/v1675376809/Mirco%20Foods/ibadah-mimpi-VoHrP4Ay97w-unsplash_wll9hu.jpg' 
+                        src='https://res.cloudinary.com/emacon-production/image/upload/v1676787542/Mirco%20Foods/tim-mossholder-xDwEa2kaeJA-unsplash_oe7lkv.jpg' 
                         alt='Mirco Foods' 
                         className='hero_img_2'
                     />
@@ -51,7 +55,7 @@ const Home = () => {
                         className='hero_img_1'
                     />
                     <img 
-                        src='https://res.cloudinary.com/emacon-production/image/upload/v1675376960/Mirco%20Foods/mariliz-lopez--4hu4CU1T_k-unsplash_kypcwr.jpg' 
+                        src='https://res.cloudinary.com/emacon-production/image/upload/v1676350817/Mirco%20Foods/etty-fidele-oJpkjWcScyg-unsplash_ghme4t.jpg' 
                         alt='Mirco Foods' 
                         className='hero_img_2'
                     />
@@ -104,10 +108,10 @@ const Home = () => {
 
         <div className='home_capacity_building'>
             <div className='capacity_building_img'>
-                <img src='https://res.cloudinary.com/emacon-production/image/upload/v1675422670/Mirco%20Foods/Screenshot_from_2023-02-03_01-27-21_z5iyuq.png' alt='Mirco Foods' />
+                <img src='https://res.cloudinary.com/emacon-production/image/upload/v1676788740/Mirco%20Foods/annie-spratt-QYcSeY7vuZM-unsplash_vcu53k.jpg' />
             </div>
             <div className='capacity_building_text'>
-                <h6>Global Health & Farmer's Livelihood</h6>
+                {/* <h6>Global Health & Farmer's Livelihood</h6> */}
                 <h1>
                     <span>Capacity</span> Building
                 </h1>
@@ -121,12 +125,12 @@ const Home = () => {
 
         <div className='home_membership'>
             <div className='membership_title'>
-                <h6>Agriculture</h6>
+                {/* <h6>Agriculture</h6> */}
                 <h1>
-                    <span>Worldwide</span> <br/>
+                    {/* <span>Worldwide</span> <br/> */}
                     Membership & Certifications
                 </h1>
-                <Button type="3"  content="Contact us Today" icon="bx bx-envelope" targetLink="/contact" />
+                {/* <Button type="3"  content="Contact us Today" icon="bx bx-envelope" targetLink="/contact" /> */}
             </div>
 
             <div className='membership_logos'>

@@ -1,0 +1,25 @@
+.dropdown{
+    display: none;
+}
+
+.dropdown.show {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    border-radius: 0% 0% 5% 5%;
+    padding: 1rem 0rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.submenu_items {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+}
+
+.submenu_items:hover {
+    color: #02662f;
+    background: white;
+}
