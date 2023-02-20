@@ -46,7 +46,8 @@ nav .menu_link {
 
 nav .menu_link:hover {
     color: #02662f;
-    border-bottom: 1px solid #02662f;
+    text-decoration: none;
+    /* border-bottom: 1px solid #02662f; */
 }
 
 nav #toggle,
