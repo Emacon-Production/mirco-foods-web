@@ -26,6 +26,7 @@ const Team = () => {
                         <p class="name-client"> 
                             {item.name}
                             <span>{item.role}</span>
+                            <span>{item.email}</span>
                         </p>
                         {/* <div class="social-media">
                             <a href="#">
