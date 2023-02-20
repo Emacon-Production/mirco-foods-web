@@ -356,6 +356,8 @@
     .mobile_certificate_btn {
         display: flex !important;
     }
+
+    .certificate a {display: none !important;}
 }
 
 @media screen and (max-width: 1080px) {
@@ -418,6 +420,8 @@
     .mobile_certificate_btn {
         display: flex !important;
     }
+
+    .certificate a {display: none !important;}
 }
 
 @media screen and (max-width: 490px) {
