@@ -10,6 +10,8 @@ import Footer from '../../components/footer/Footer'
 
 const Home = () => {
     const [navBackground, setNavBackground] = useState('transparent');
+    const [showCertificateBtn1, setShowCertificateBtn1] = useState(false);
+    const [showCertificateBtn2, setShowCertificateBtn2] = useState(false);
 
     const changeNavigationBackground = () => {
         if(window.scrollY >= 80){
@@ -134,9 +136,68 @@ const Home = () => {
             </div>
 
             <div className='membership_logos'>
-                {
-                    membershipData.map((logo, index) => <img src={logo} alt="Mirco Foods" key={index} /> )
-                }
+                <div>
+                    {
+                        membershipData.map((logo, index) => <img src={logo} alt="Mirco Foods" key={index} /> )
+                    }
+                </div>
+                
+                <div className="certificates">
+                    <div 
+                        className='certificate organic_EU' 
+                        onMouseEnter={() => setShowCertificateBtn1(true)}
+                        onMouseLeave={() => setShowCertificateBtn1(false)}
+                    >
+                        {
+                            showCertificateBtn1 && (
+                                <a href="https://drive.google.com/file/d/1YHWV05soxchHjTJH4rHOO_6p9QFmzUXn/view?usp=sharing" download primary='true' target="_blank">
+                                    View
+                                    <div class="arrow-wrapper">
+                                        <div class="arrow"></div>
+
+                                    </div>
+                                </a>
+                            )
+                        }
+
+                                <a className='mobile_certificate_btn' href="https://drive.google.com/file/d/1YHWV05soxchHjTJH4rHOO_6p9QFmzUXn/view?usp=sharing" download primary='true' target="_blank">
+                                    View
+                                    <div class="arrow-wrapper">
+                                        <div class="arrow"></div>
+
+                                    </div>
+                                </a>
+                        
+                    </div>
+
+                    <div 
+                        className='certificate USDA-NOP' 
+                        onMouseEnter={() => setShowCertificateBtn2(true)}
+                        onMouseLeave={() => setShowCertificateBtn2(false)}
+                    >
+                        {
+                            showCertificateBtn2 && (
+                                <a href="https://drive.google.com/file/d/1XYDNGPLbZKmhxKL7Spdl0M_ZVBZvE84i/view?usp=sharing" download primary='true' target="_blank">
+                                    View
+                                    <div class="arrow-wrapper">
+                                        <div class="arrow"></div>
+
+                                    </div>
+                                </a>
+                            )
+                        }
+
+                            <a className='mobile_certificate_btn' href="https://drive.google.com/file/d/1XYDNGPLbZKmhxKL7Spdl0M_ZVBZvE84i/view?usp=sharing" download primary='true' target="_blank">
+                                View
+                                <div class="arrow-wrapper">
+                                    <div class="arrow"></div>
+
+                                </div>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
         </div>
 

@@ -165,7 +165,7 @@
 .home_membership {
     display: flex;
     /* flex-wrap: wrap; */
-    align-items: center;
+    /*  align-items: center; */
     justify-content: center;
     padding: 3rem 8rem;
     background: url(https://res.cloudinary.com/emacon-production/image/upload/v1675379359/Mirco%20Foods/Untitled_design_2_m0u7zq.jpg);
@@ -180,6 +180,7 @@
 
 .membership_title h1 {
     font-weight: 800;
+    margin-top: 2rem;
 }
 
 .membership_title span {
@@ -197,6 +198,102 @@
     width: 9rem;
     padding: 2rem 2rem 0rem 0rem;
 }
+
+.certificates {
+    margin-top: 2rem;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.certificate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 8rem 3rem; */
+    height: 20rem;
+    width: 15rem;
+}
+
+.organic_EU {
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1676879217/Mirco%20Foods/Screenshot_from_2023-02-20_10-44-37_yvm9kq.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+.USDA-NOP {
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1676879217/Mirco%20Foods/Screenshot_from_2023-02-20_10-43-40_frwjaj.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+.certificate a {
+    --primary-color: #02662f;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 0.5em 1.3em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .certificate a .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .certificate a .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .certificate a .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  .certificate a:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .certificate a:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  .certificate a:hover .arrow:before {
+    right: 0;
+  }
+
+  .mobile_certificate_btn {
+    display: none !important;
+  }
 
 @media (max-width: 40.625rem) {
     .hero {
@@ -249,6 +346,15 @@
 
     .section_title {
         font-size: 1rem;
+    }
+
+    .certificate {
+        height: 32rem;
+        width: 21.5rem;
+    }
+
+    .mobile_certificate_btn {
+        display: contents;
     }
 }
 
