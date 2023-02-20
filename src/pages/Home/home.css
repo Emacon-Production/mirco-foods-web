@@ -354,7 +354,7 @@
     }
 
     .mobile_certificate_btn {
-        display: contents;
+        display: flex !important;
     }
 }
 
@@ -413,6 +413,10 @@
         background-repeat: none;
         background-position: center;
         background-size: cover;
+    }
+
+    .mobile_certificate_btn {
+        display: flex !important;
     }
 }
 
