@@ -12,8 +12,8 @@ const Services = () => {
         <div className='services'>
             <div className='section_title'>
                 <h1>
-                    <span className='section_title_200' style={{ color: 'white' }} >Seed</span>
-                    <span className='section_title_800' style={{ color: 'white' }} >Cleaning</span>
+                    <span className='section_title_200' style={{ color: 'white' }} >Our</span>
+                    <span className='section_title_800' style={{ color: 'white' }} >Services</span>
                 </h1>
             </div>
 

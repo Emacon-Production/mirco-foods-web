@@ -8,7 +8,7 @@
         "targetLink": "/about",
         "submenu": [
             {
-                "menu": "Mission & Vision",
+                "menu": "Mission and Vision",
                 "target": "/about"
             },
             {
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "name": "What we do",
+        "name": "What We Do",
         "targetLink": "/about",
         "submenu": [
             {

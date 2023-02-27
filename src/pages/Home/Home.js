@@ -52,7 +52,7 @@ const Home = () => {
                 </div>
                 <div className='hero_img_set_two'>
                     <img 
-                        src='https://res.cloudinary.com/emacon-production/image/upload/v1675376973/Mirco%20Foods/randy-fath-dDc0vuVH_LU-unsplash_vq9goz.jpg' 
+                        src='https://res.cloudinary.com/emacon-production/image/upload/v1677470974/Mirco%20Foods/WhatsApp_Image_2023-02-25_at_12.23.48_ozwgek.jpg' 
                         alt='Mirco Foods' 
                         className='hero_img_1'
                     />
@@ -90,8 +90,8 @@ const Home = () => {
         <div className='home_services'>
             <div className='section_title'>
                 <h1>
-                    <span className='section_title_200' style={{ color: 'white' }} >Seed</span>
-                    <span className='section_title_800' style={{ color: 'white' }} >Cleaning</span>
+                    <span className='section_title_200' style={{ color: 'white' }} >Our</span>
+                    <span className='section_title_800' style={{ color: 'white' }} >Services</span>
                 </h1>
             </div>
 
