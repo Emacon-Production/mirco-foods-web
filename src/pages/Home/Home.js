@@ -45,7 +45,7 @@ const Home = () => {
                         className='hero_img_1'
                     />
                     <img 
-                        src='https://res.cloudinary.com/emacon-production/image/upload/v1676787542/Mirco%20Foods/tim-mossholder-xDwEa2kaeJA-unsplash_oe7lkv.jpg' 
+                        src='https://res.cloudinary.com/emacon-production/image/upload/v1677475351/Mirco%20Foods/monika-grabkowska-1PmVG-ScdKk-unsplash_czvchl.jpg' 
                         alt='Mirco Foods' 
                         className='hero_img_2'
                     />
