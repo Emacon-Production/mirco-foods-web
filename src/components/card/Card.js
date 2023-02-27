@@ -3,7 +3,7 @@ import React from 'react'
 
 const CardComponent = ({ majorProduct, thumbnail }) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ width: 345 }}>
         <CardActionArea>
             <CardMedia
                 component="img"
