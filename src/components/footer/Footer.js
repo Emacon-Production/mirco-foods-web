@@ -19,7 +19,7 @@ const Footer = () => {
                 </p>
                 <p className="copyright_details">
                     {`Developed by `}
-                    <a color="inherit" href="https://victor-githui.netlify.app/" target="_blank" rel="noreferrer">
+                    <a color="inherit" href="https://emaconproduction.com" target="_blank" rel="noreferrer">
                         Emacon Production
                     </a>{' '}
                 </p>
